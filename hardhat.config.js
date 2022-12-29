@@ -21,6 +21,8 @@ module.exports = {
     mumbai: {
       url: process.env.RPC_URL,
       accounts: [process.env.PRIVATE_KEY],
+      gas: 2100000,
+      gasPrice: 8000000000
     },
   },
   etherscan: {
