@@ -2,21 +2,26 @@
 require("@nomiclabs/hardhat-ethers");
 require('@openzeppelin/hardhat-upgrades');
 require("@nomiclabs/hardhat-etherscan");
+require("dotenv").config();
 
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-  solidity: "0.8.4",
-  networks: {
-    rinkeby: {
-      url: `https://eth-rinkeby.alchemyapi.io/v2/${process.env.ALCHEMY_KEY}`,
-      accounts: { mnemonic: process.env.MNEMONIC_WALLET },
+  solidity: {
+    version: "0.8.17",
+    settings: {
+      optimizer: {
+        enabled: true,
+        runs: 200,
+      },
     },
-    matic: {
-      url: "https://rpc-mumbai.maticvigil.com",
-      accounts: [process.env.PRIVATE_KEY_WALLET_RINKEBY]
-    }
+  },
+  networks: {
+    mumbai: {
+      url: process.env.RPC_URL,
+      accounts: [process.env.PRIVATE_KEY],
+    },
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY

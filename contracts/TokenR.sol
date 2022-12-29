@@ -8,13 +8,15 @@ import "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
 import "@openzeppelin/contracts-upgradeable/utils/math/SafeMathUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol";
 
 contract TokenR is
     Initializable,
     ERC20Upgradeable,
     ERC20BurnableUpgradeable,
     PausableUpgradeable,
-    OwnableUpgradeable
+    OwnableUpgradeable,
+    UUPSUpgradeable
 {
     //This function gets called by the TokenFactory contract
     function initialize(string memory _name, string memory _symbol)
@@ -26,4 +28,8 @@ contract TokenR is
         __Pausable_init();
         __Ownable_init();
     }
+
+   ///@dev required by the OZ UUPS module
+   function _authorizeUpgrade(address) internal override onlyOwner {}
+
 }

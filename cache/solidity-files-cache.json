@@ -1,15 +1,15 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/contracts/TokenFactoryR.sol": {
-      "lastModificationDate": 1649677268092,
-      "contentHash": "05076928160e59aa9406eba395da7b82",
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/contracts/TokenFactoryR.sol": {
+      "lastModificationDate": 1672290026936,
+      "contentHash": "664e84cfb0df9575f46b46cb0a071574",
       "sourceName": "contracts/TokenFactoryR.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -43,15 +43,15 @@
         "TokenFactoryR"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
-      "lastModificationDate": 1649429633421,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1672289733686,
       "contentHash": "49c8ad51a559f6dda13d35874f7dfdb9",
       "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -81,15 +81,15 @@
         "Initializable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
-      "lastModificationDate": 1649429633422,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1672289733694,
       "contentHash": "11b77de3cb69dfc6b342ec87bd09cbdd",
       "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -120,15 +120,15 @@
         "OwnableUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol": {
-      "lastModificationDate": 1649429633410,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol": {
+      "lastModificationDate": 1672289733642,
       "contentHash": "2e908c762a799baea365e68a50500e2c",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -156,15 +156,15 @@
         "CountersUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/contracts/TokenProxyR.sol": {
-      "lastModificationDate": 1649677347245,
-      "contentHash": "ff8b098581176f2c1a383f1f997da0ec",
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/contracts/TokenProxyR.sol": {
+      "lastModificationDate": 1672289931763,
+      "contentHash": "7ab769a2dbd17c734624228372d9a3ed",
       "sourceName": "contracts/TokenProxyR.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -195,15 +195,15 @@
         "TokenProxyR"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/contracts/TokenR.sol": {
-      "lastModificationDate": 1649677350094,
-      "contentHash": "2bf58548a43bb1444056e6265c454d92",
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/contracts/TokenR.sol": {
+      "lastModificationDate": 1672289904855,
+      "contentHash": "c88ec7e455f0d077c9c8720688e3573e",
       "sourceName": "contracts/TokenR.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -230,7 +230,8 @@
         "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
         "@openzeppelin/contracts-upgradeable/utils/math/SafeMathUpgradeable.sol",
         "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol"
+        "@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
@@ -239,15 +240,15 @@
         "TokenR"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
-      "lastModificationDate": 1649429633409,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1672289733638,
       "contentHash": "b70d2e0552ab1f44f7e44b5f8379c358",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -275,15 +276,15 @@
         "AddressUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
-      "lastModificationDate": 1649429633410,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1672289733642,
       "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -313,15 +314,15 @@
         "ContextUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/proxy/Proxy.sol": {
-      "lastModificationDate": 1649669768369,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/proxy/Proxy.sol": {
+      "lastModificationDate": 1672289733666,
       "contentHash": "64bbdea195e6365927334efd0fc13255",
       "sourceName": "@openzeppelin/contracts/proxy/Proxy.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -349,15 +350,15 @@
         "Proxy"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol": {
-      "lastModificationDate": 1649669951199,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol": {
+      "lastModificationDate": 1672289733594,
       "contentHash": "524a6c6f00b809b1184050dcc9e131d8",
       "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -388,15 +389,15 @@
         "ERC1967Proxy"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol": {
-      "lastModificationDate": 1649429525508,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol": {
+      "lastModificationDate": 1672289733598,
       "contentHash": "6baa887a798e95b14f34e093f117e9b2",
       "sourceName": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Upgrade.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -429,15 +430,15 @@
         "ERC1967Upgrade"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/proxy/beacon/IBeacon.sol": {
-      "lastModificationDate": 1649429525512,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/proxy/beacon/IBeacon.sol": {
+      "lastModificationDate": 1672289733654,
       "contentHash": "b6bd23bf19e90b771337037706470933",
       "sourceName": "@openzeppelin/contracts/proxy/beacon/IBeacon.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -465,15 +466,15 @@
         "IBeacon"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/interfaces/draft-IERC1822.sol": {
-      "lastModificationDate": 1649429525506,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/interfaces/draft-IERC1822.sol": {
+      "lastModificationDate": 1672289733522,
       "contentHash": "2858d98e74e67987ec81b39605230b74",
       "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC1822.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -501,15 +502,15 @@
         "IERC1822Proxiable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1649429525505,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1672289733522,
       "contentHash": "ad714a6368ee7d43cded6bbe8af0b155",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -537,15 +538,15 @@
         "Address"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/utils/StorageSlot.sol": {
-      "lastModificationDate": 1649429525517,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts/utils/StorageSlot.sol": {
+      "lastModificationDate": 1672289733670,
       "contentHash": "187a01c1e4e638014509dfee3ac6faa9",
       "sourceName": "@openzeppelin/contracts/utils/StorageSlot.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -573,15 +574,15 @@
         "StorageSlot"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol": {
-      "lastModificationDate": 1649429633414,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol": {
+      "lastModificationDate": 1672289733654,
       "contentHash": "41f034b817abdbfcced998bf8c9fd34a",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -614,15 +615,15 @@
         "ERC20Upgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol": {
-      "lastModificationDate": 1649429633413,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol": {
+      "lastModificationDate": 1672289733646,
       "contentHash": "8c58ae2b48b49da0634bc2db620540cf",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -654,15 +655,15 @@
         "ERC20BurnableUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol": {
-      "lastModificationDate": 1649429633423,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol": {
+      "lastModificationDate": 1672289733694,
       "contentHash": "f5233d9eeebd5f0b4633650939e72426",
       "sourceName": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -693,15 +694,15 @@
         "PausableUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/math/SafeMathUpgradeable.sol": {
-      "lastModificationDate": 1649429633423,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/math/SafeMathUpgradeable.sol": {
+      "lastModificationDate": 1672289733694,
       "contentHash": "79fabca470327c2d2b7367abeef7e097",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/math/SafeMathUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -729,15 +730,15 @@
         "SafeMathUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol": {
-      "lastModificationDate": 1649429633411,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol": {
+      "lastModificationDate": 1672289733642,
       "contentHash": "5604aeb0260322a4059d100ddb0fa95b",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -767,15 +768,55 @@
         "ECDSAUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol": {
-      "lastModificationDate": 1649429633419,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol": {
+      "lastModificationDate": 1672289733698,
+      "contentHash": "eb2268e7f08e65339fdf577dad98c925",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/draft-IERC1822Upgradeable.sol",
+        "../ERC1967/ERC1967UpgradeUpgradeable.sol",
+        "./Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "UUPSUpgradeable"
+      ]
+    },
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol": {
+      "lastModificationDate": 1672289733682,
       "contentHash": "42737d1d02061ade4f91d1e08b45f835",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -803,15 +844,15 @@
         "IERC20Upgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol": {
-      "lastModificationDate": 1649429633419,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol": {
+      "lastModificationDate": 1672289733682,
       "contentHash": "9efcd5467a7f0bf533910ee8a267adb2",
       "sourceName": "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/IERC20MetadataUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -841,15 +882,15 @@
         "IERC20MetadataUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol": {
-      "lastModificationDate": 1649429633425,
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol": {
+      "lastModificationDate": 1672289733694,
       "contentHash": "f60b5fcbc57911b0fbc7a31a110f90bc",
       "sourceName": "@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -877,15 +918,15 @@
         "StringsUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/contracts/TokenFactoryRV2.sol": {
-      "lastModificationDate": 1649672696924,
-      "contentHash": "f772b475482dec1a19557e1f4dde6034",
-      "sourceName": "contracts/TokenFactoryRV2.sol",
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol": {
+      "lastModificationDate": 1672289733642,
+      "contentHash": "a6883cfd85607b16c121a02728369eb3",
+      "sourceName": "@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -905,29 +946,23 @@
           }
         }
       },
-      "imports": [
-        "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
-        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/utils/CountersUpgradeable.sol",
-        "./TokenProxyR.sol",
-        "./TokenR.sol"
-      ],
+      "imports": [],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "TokenFactoryRV2"
+        "IERC1822ProxiableUpgradeable"
       ]
     },
-    "/Users/nick/Documents/Tesi/ContractFactoryUpgradeable/contracts/TokenRV2.sol": {
-      "lastModificationDate": 1649677353319,
-      "contentHash": "199a9d92e0671a80a22c1e944bae6207",
-      "sourceName": "contracts/TokenRV2.sol",
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol": {
+      "lastModificationDate": 1672289733646,
+      "contentHash": "d1ceeaa35b60471b1c6e50d29d70354a",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol",
       "solcConfig": {
-        "version": "0.8.4",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
-            "enabled": false,
+            "enabled": true,
             "runs": 200
           },
           "outputSelection": {
@@ -948,19 +983,89 @@
         }
       },
       "imports": [
-        "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20BurnableUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
-        "@openzeppelin/contracts-upgradeable/utils/math/SafeMathUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/utils/cryptography/ECDSAUpgradeable.sol"
+        "../beacon/IBeaconUpgradeable.sol",
+        "../../interfaces/draft-IERC1822Upgradeable.sol",
+        "../../utils/AddressUpgradeable.sol",
+        "../../utils/StorageSlotUpgradeable.sol",
+        "../utils/Initializable.sol"
       ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "ERC1967UpgradeUpgradeable"
+      ]
+    },
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol": {
+      "lastModificationDate": 1672289733670,
+      "contentHash": "21bffd733b4ca013e125a0ffe2e52254",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "TokenRV2"
+        "IBeaconUpgradeable"
+      ]
+    },
+    "/home/matifalcone/Blockchain/Polygon/ContractFactoryUpgradeable/node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol": {
+      "lastModificationDate": 1672289733694,
+      "contentHash": "fffe21caed735dbc8a621e3844f0adb1",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StorageSlotUpgradeable"
       ]
     }
   }

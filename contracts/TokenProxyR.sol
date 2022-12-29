@@ -9,11 +9,4 @@ contract TokenProxyR is ERC1967Proxy {
     
     constructor(address _logic, bytes memory _data) ERC1967Proxy(_logic, _data) {}
 
-    function versionProxy() public view returns(uint32) {
-        return version;
-    }
-
-    function upgradeTo(address implementation) public {
-        super._upgradeTo(implementation);
-    }
 }

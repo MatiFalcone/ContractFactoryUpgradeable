@@ -13,10 +13,12 @@ contract TokenFactoryR is Initializable, OwnableUpgradeable {
     mapping(uint256 => address) private addressesProxies;
     CountersUpgradeable.Counter private counter;
     string private version;
+    address implementation;
 
-    function initialize(string memory _version) public initializer {
+    function initialize(address token, string memory _version) public initializer {
         _transferOwnership(tx.origin);
         version = _version;
+        implementation = token;
     }
 
     function versionContract() public view returns (string memory) {
@@ -24,8 +26,7 @@ contract TokenFactoryR is Initializable, OwnableUpgradeable {
     }
 
     function createProxyContract(string memory _name, string memory _symbol) public onlyOwner {
-        TokenR token = new TokenR();
-        TokenProxyR newProxy = new TokenProxyR(address(token), abi.encodeWithSelector(TokenR(address(0)).initialize.selector, _name, _symbol));
+        TokenProxyR newProxy = new TokenProxyR(address(implementation), abi.encodeWithSelector(TokenR(address(0)).initialize.selector, _name, _symbol));
         uint256 currentCounter = counter.current();
         addressesProxies[currentCounter] = address(newProxy);
         counter.increment();
